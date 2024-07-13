@@ -1,0 +1,255 @@
+/* Tags Globais */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p {
+    font-family: 'Ruluko';
+}
+h1 {
+    font-size: 42px;
+}
+
+/* Fim Tags Globais */
+
+/* imagem de fundo */
+
+body {
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 720px;
+}
+
+/* Fim imagem de fundo */
+
+/* botão scroll */
+
+.scroll img {
+    width: 50px;
+    background-color: rgb(158, 157, 157);
+    border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+
+/* Início Seção logo */
+
+.secao-logo {
+    background-color: #FFEBD9;
+    text-align: center;
+    height: 64px;
+}
+
+.secao-logo img {
+    width: 324.5px;
+    height: 61px;
+}
+
+/* Fim Seção logo */
+
+/* Início seção nav */
+
+.secao-nav {
+    height: 35px;
+    background-color: #FF7245;
+    display: flex;
+    align-items: center;
+}
+.secao-nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 647px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+.secao-nav a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+.secao-nav a:hover {
+    border-bottom: 2px solid ;
+}
+
+/* Fim seção nav */
+
+/* Início seção início */
+
+.secao-inicio {
+    position: relative;
+    height: 618px;
+    background-color: #E8D5B9;
+}
+.secao-inicio h1 {
+    width: 556px;
+    position: absolute;
+    top: 97px;
+    left: 122px;
+}
+.secao-inicio p {
+    position: absolute;
+    width: 575px;
+    height: 223px;
+    font-size: 28px;
+    bottom: 185px;
+    left: 198px;
+}
+.secao-inicio img {
+    position: absolute;
+    top: 215px;
+    width: 510px;
+    height: 538px;
+    right: 546px;
+}
+
+/* Fim seção início */
+
+/* Início Seção Receitas */
+
+.receitas-categoria {
+    border-top: 2px dashed black;
+    height: 650px;
+    background-color: #E8D5B9;
+}
+.receitas-categoria h1 {
+    width: 142px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.lista-receitas {
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.lista-receitas h3 {
+    margin: 20px 0;
+}
+.lista-receitas ul {
+    list-style-type: none;
+    margin: 20px 0
+}
+.lista-receitas li {
+    margin-bottom: 10px;
+}
+.lista-receitas a {
+    text-decoration: none;
+    color: #FF7245;
+    font-weight: bold;
+}
+.lista-receitas a:hover {
+    border-bottom: 2px solid #FF7245;
+}
+
+.lista {
+    width: 135px;
+    padding: 10px;
+}
+
+/* Fim Seção Receitas*/
+
+/* Início Seção Contato*/
+
+.secao-contato {
+    border-top: 2px dashed black;
+    height: 450px;
+    background-color: #E8D5B9;
+}
+.secao-contato h1 {
+    width: 142px;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 60px
+}
+.secao-contato fieldset {
+    padding: 15px 10px;
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.secao-contato fieldset {
+    box-shadow: 10px 10px 15px;
+}
+
+.secao-contato input {
+    width: 230px;
+    padding: 5px;
+}
+.secao-contato textarea {
+    margin: 15px 0 0 0;
+    width: 505px;
+    padding: 5px;
+}
+.secao-contato label {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#label-mensagem {
+    margin: 25px 0 0 0;
+    margin-right: 5px;
+}
+.secao-contato img {
+    width: 20px;
+    height: 20px;
+}
+.secao-contato a {  
+    text-decoration: none;
+    font-weight: normal;
+}
+.secao-contato a:hover {
+    color: black;
+}
+.secao-contato .contatos {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin: 0 auto;
+}
+.butons {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+.butons button {
+    padding: 5px;
+    width: 100px;
+    margin-top: 20px;
+}
+.butons button:hover {
+    color: #FF7245;
+    cursor: pointer;
+}
+/* Fim Seção Contato*/
+
+/* footer */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(128, 128, 128, 0.532);
+}
+.footer p {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
